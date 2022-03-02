@@ -1,6 +1,6 @@
 {
   "name": "gh-check",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Perfect little package for any github-repo based projects that wish to have their end-users kept up-to-date with new releases.",
   "main": "index.js",
   "directories": {
@@ -12,9 +12,9 @@
   "author": "2M4U",
   "license": "SEE LICENSE IN REPOSITORY",
   "dependencies": {
-    "axios": "^0.26.0"
+    "axios": "^0.26.0",
+    "pretty-ms": "^7.0.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2M4U/gh-check.git"
@@ -31,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/2M4U/gh-check/issues"
   },
-  "homepage": "https://github.com/2M4U/gh-check#readme"
+  "homepage": "https://github.com/2M4U/gh-check#readme",
+  "devDependencies": {}
 }
